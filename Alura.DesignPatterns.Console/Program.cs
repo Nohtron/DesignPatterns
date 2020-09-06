@@ -1,4 +1,5 @@
-﻿using System;
+﻿
+using System;
 
 namespace Alura.DesignPatterns.App
 {
@@ -6,7 +7,7 @@ namespace Alura.DesignPatterns.App
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+
         }
     }
 }

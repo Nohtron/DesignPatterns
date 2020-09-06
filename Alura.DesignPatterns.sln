@@ -7,6 +7,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Alura.DesignPatterns.App", 
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Pratica.XUnitTest", "Pratica.XUnitTest\Pratica.XUnitTest.csproj", "{9D7A990E-9211-4DEB-9E77-D37ACFFF1817}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Alura.Benchmarks", "Alura.Benchmarks\Alura.Benchmarks.csproj", "{E6A15E77-742E-469A-A1B8-CC7F57B1E445}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{9D7A990E-9211-4DEB-9E77-D37ACFFF1817}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9D7A990E-9211-4DEB-9E77-D37ACFFF1817}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9D7A990E-9211-4DEB-9E77-D37ACFFF1817}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E6A15E77-742E-469A-A1B8-CC7F57B1E445}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E6A15E77-742E-469A-A1B8-CC7F57B1E445}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E6A15E77-742E-469A-A1B8-CC7F57B1E445}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E6A15E77-742E-469A-A1B8-CC7F57B1E445}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
