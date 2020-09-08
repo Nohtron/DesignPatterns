@@ -6,11 +6,18 @@ namespace Alura.DesignPatterns.App.Entities
 {
     public class Orcamento
     {
-        public decimal Valor { get; private set; }
+        public double Valor { get; private set; }
+        public List<Item> Itens { get; private set; }
 
-        public Orcamento(decimal valor)
+        public Orcamento(double valor)
         {
             Valor = valor;
+            Itens = new List<Item>();
+        }
+
+        public void AdicionaItem(Item item)
+        {
+            Itens.Add(item);
         }
     }
 }

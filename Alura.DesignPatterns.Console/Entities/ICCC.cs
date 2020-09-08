@@ -9,17 +9,17 @@ namespace Alura.DesignPatterns.App.Entities
     {
         public decimal Calcula(Orcamento orcamento)
         {
-            if (decimal.Compare(orcamento.Valor, (decimal)1000.0) == -1)
+            if (decimal.Compare((decimal)orcamento.Valor, (decimal)1000.0) == -1)
             {
-                return decimal.Multiply(orcamento.Valor, (decimal)0.05);
+                return decimal.Multiply((decimal)orcamento.Valor, (decimal)0.05);
             }
-            else if (decimal.Compare(orcamento.Valor, (decimal)3000.0) <= 1)
+            else if (decimal.Compare((decimal)orcamento.Valor, (decimal)3000.0) <= 1)
             {
-                return decimal.Multiply(orcamento.Valor, (decimal)0.07);
+                return decimal.Multiply((decimal)orcamento.Valor, (decimal)0.07);
             }
             else
             {
-                return decimal.Add(decimal.Multiply(orcamento.Valor, (decimal)0.08), (decimal)30.0);
+                return decimal.Add(decimal.Multiply((decimal)orcamento.Valor, (decimal)0.08), (decimal)30.0);
             }
         }
     }

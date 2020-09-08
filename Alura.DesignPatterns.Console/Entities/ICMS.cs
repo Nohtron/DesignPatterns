@@ -9,7 +9,7 @@ namespace Alura.DesignPatterns.App.Entities
     {
         public decimal Calcula(Orcamento orcamento)
         {
-            return decimal.Add(decimal.Multiply(orcamento.Valor, (decimal)0.05), (decimal)50.0);
+            return decimal.Add(decimal.Multiply((decimal)orcamento.Valor, (decimal)0.05), (decimal)50.0);
         }
     }
 }
